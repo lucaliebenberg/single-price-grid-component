@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+  background-color: #e6eff5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+.container {
+  height: 475px;
+  width: 635px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px 10px 0 0;
+}
+.card__topTitle {
+  font-size: 24px;
+  font-family: Karla;
+  color: #2ab3b1;
+  margin-left: 1rem;
+}
+.card__topPara {
+  font-size: 18px; 
+  font-family: Karla;
+  font-weight: bold;
+  color: #C0DF33;
+  margin-left: 1rem;
+}
+.card__topPara2 {
+  font-size: 16px; 
+  font-family: Karla;
+  font-weight: 400;
+  color: #9AA7BE;
+  margin-left: 1rem;
+  max-width: 555px;
+}
+.card__bottomWrap {
+  display: flex;
+  flex-direction: row;
+}
+.card__bottomPriceWrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card__bottomLeft {
+  width: 50%;
+  background-color: #2AB3B1;
+  padding: 1rem;
+  border-radius: 0 0 0 10px;
+}
+.card__bottomLeftTitle {
+  font-size: 18px;
+  font-family: Karla;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0;
+  margin-left: 1.2rem;
+}
+.card__bottomPrice {
+  font-size: 32px;
+  color: white;
+  font-family: Karla;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-left: 1.2rem;
+  align-items: center;
+}
+.card__bottomPriceMonth {
+  font-size: 16px;
+  color: white;
+  font-family: Karla;
+  margin-bottom: 0.5rem;
+  opacity: 0.5;
+}
+.card__bottomAccess {
+  font-size: 16px;
+  color: white;
+  font-family: Karla;
+  margin-left: 1.2rem;
+  /* margin-top: 1.2rem; */
+}
+.card__bottomButtonWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__bottomBtn {
+  height: 47px;
+  width: 237px;
+  background-color: #C0DF33;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border: none;
+  margin-top: 1rem;
+  justify-content: center;
+}
+.card__bottomRight {
+  width: 50%;
+  background-color: #4ABFBD;
+  padding: 1.8rem;
+  color: white;
+  border-radius: 0 0 10px 0;
+}
+.card__bottomRightTitle {
+  color: white;
+  font-family: Karla;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+.card__bottomRightSubtitle {
+  font-family: Karla;
+  font-size: 14px;
+  line-height: 1.8;
+  max-width: 190px;
+  margin-left: 1rem;
+}
