@@ -131,3 +131,45 @@ body {
   max-width: 190px;
   margin-left: 1rem;
 }
+
+/* media queries */
+@media screen and (max-width: 350px) {
+  .container {
+    height: 722px;
+    width: 311px;
+  }
+  .card__top { 
+    height: auto;
+    width: 311px;
+   }
+  .card__topTitle {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .card__topPara {
+    font-size: 15px;
+    font-weight: bold;
+    max-width: 260px;
+  }
+  .card__topPara2 {
+    font-size: 14px;
+    max-width: 260px;
+  }
+  .card__bottomWrap {
+    flex-direction: column;
+  }
+  .card__bottomLeft {
+    width: 100%;
+    border-radius: 0;
+  }
+  .card__bottomRight {
+    width: 100%;
+  }
+  .card__bottomLeftTitle, .card__bottomPrice, .card__bottomAccess {
+    margin-left: 2rem;
+  }
+  .card__bottomBtn {
+    width: 263px;
+    height: 48px;
+  }
+}
