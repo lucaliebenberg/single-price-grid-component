@@ -1,10 +1,6 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
     <div className="App">
       <div className="container">
@@ -37,7 +33,6 @@ function App() {
           <div className="card__bottomRight">
             <p className="card__bottomRightTitle">Why Us</p>
             <p className="card__bottomRightSubtitle">
-              {" "}
               Tutorials by industry experts Peer &amp; expert code review Coding
               exercises Access to our GitHub repos Community forum Flashcard
               decks New videos every week
@@ -47,6 +42,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
