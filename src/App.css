@@ -159,11 +159,13 @@ body {
     flex-direction: column;
   }
   .card__bottomLeft {
-    width: 100%;
+    /* width: 100%; */
+    width: 311px;
     border-radius: 0;
   }
   .card__bottomRight {
-    width: 100%;
+    /* width: 100%; */
+    width: 285.2px;
   }
   .card__bottomLeftTitle, .card__bottomPrice, .card__bottomAccess {
     margin-left: 2rem;
